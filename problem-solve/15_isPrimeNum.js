@@ -3,7 +3,6 @@ function isPrimeNum(num) {
 
     for (let i = 2; i < num; i++) {
         console.log(`${num} * ${i} = ${num % i}`);
-        // num % i === 0 ? (output = false) : true;
         if (num % i === 0) {
             output = false;
             break;
